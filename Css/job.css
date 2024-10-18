@@ -1,0 +1,537 @@
+.main {
+    width: 90%;
+    margin: auto;
+}
+
+.NavBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);
+}
+
+.NavBarChild1 {
+    margin-left: 30px;
+}
+
+.NavBarChild1>h2 {
+    color: 00B074;
+    font-size: 2.5rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+}
+
+.NavBarChild2 {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+
+.NavBarChild2>a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    /* font-weight: bold; */
+    font-family: "Inter", sans-serif;
+}
+
+.NavBarChild2>a:nth-child(6) {
+    background-color: 00B074;
+    width: 110px;
+    padding: 31px;
+
+}
+
+.herOSectionImage {
+    width: 100%;
+    background-image: linear-gradient(transparent 0%, black 100%), url("../images/img/carousel-2.jpg");
+    /* height: 600px; */
+    /* background-size: 100% 800px; */
+    background-size: 100%;
+    height: 550px
+}
+
+.herOSectionImage>div {
+    color: white;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+
+.herOSectionImage>div>h2 {
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.herOSectionImage>div>p {
+    width: 69%;
+    font-size: 20px;
+
+}
+
+.herOSectionImageChild>div>button:nth-child(1) {
+    width: 141px;
+    padding: 10px;
+    background-color: 00B074;
+    color: white;
+    border: none;
+    font-size: 16px;
+}
+
+.herOSectionImageChild>div>button:nth-child(2) {
+    width: 141px;
+    padding: 10px;
+    background-color: #2B9BFF;
+    color: white;
+    border: none;
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+.heroSectionBottom {
+    background-color: 00B074;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroSectionBottom>div>input {
+    height: 35px;
+    width: 265px;
+    border-radius: 3px;
+    padding: 8px;
+    border: none;
+}
+
+.heroSectionBottom>div>button {
+    height: 35px;
+    width: 185;
+    background-color: #2B3940;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.CategoryMain>h2 {
+    text-align: center;
+    margin-top: 60px;
+    font-size: 40px;
+}
+
+.CategoryParent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+
+}
+
+.CategoryParent>div {
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);
+    padding: 18px
+}
+
+.CategoryParent>div>img {
+    background-color: 00B074;
+}
+
+.thirdSectionParent {
+    display: flex;
+    margin-top: 60px;
+}
+
+.thirdSectionChild1 {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.thirdSectionChild1>img {
+    width: 100%;
+}
+
+.thirdSectionChild1>img:nth-child(2) {
+    width: 268px;
+    margin-top: 22px;
+}
+
+.thirdSectionChild1>img:nth-child(3) {
+    height: 241px;
+    margin-bottom: 51px;
+    margin-left: 36px;
+    width: 88%;
+}
+
+.thirdSectionChild2 {
+    width: 50%;
+    margin-top: 200px;
+    margin-left: 30px;
+}
+
+.thirdSectionChild2>button {
+    width: 150px;
+    padding: 10;
+    border: none;
+    background-color: 00B074;
+    color: white;
+    font-size: 18px;
+}
+
+.joblisting {
+    margin-top: 50px;
+}
+
+.joblisting>h1 {
+    text-align: center;
+    margin: 0;
+}
+
+.jobListingParentdiv1 {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.jobListingParentdiv2 {
+    margin-top: 25px;
+}
+
+.jobListingParentdiv2>div {
+    box-shadow: 0 10px 40px 0px rgba(38, 40, 64, .2);
+}
+
+.jobListingParentdiv2>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.jobListingchild1 {
+    display: flex;
+}
+
+.jobListingSubchild1 {
+    margin-left: 30px;
+}
+
+.jobListingSubchild1>p {
+    width: 253px;
+}
+
+.jobListingchild2 {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.jobListingchild2>button {
+    height: 30px;
+    width: 153px;
+    border: none;
+    color: whitesmoke;
+    background-color: #00B074;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.joblistingButtonParent {
+    display: flex;
+    justify-content: center;
+}
+
+.joblistingButtonParent>button {
+    margin-top: 35px;
+    height: 50px;
+    width: 210px;
+    color: white;
+    background-color: 00B074;
+    border: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.clientSay>h1 {
+    text-align: center;
+    margin-top: 42px;
+}
+
+.clientSayCardParent {
+    display: flex;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.clientSayCardParent>div {
+    width: 31%;
+    background-color: EFFDF5;
+    padding: 20px;
+}
+
+.clientSayCardParent>div:nth-child(2) {
+    background-color: 00b074;
+    color: white;
+}
+
+.clientSayCardParent>div>p {
+    width: 270px;
+}
+
+.clientSayCardChild {
+    display: flex;
+}
+
+.clientSayCardChild>div {
+    margin-left: 20px;
+}
+
+.clientSayCardChild>div>h3 {
+    margin: 0;
+}
+
+.footerMain {
+    margin-top: 60px;
+    background-color: rgb(43 57 64);
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.footerHeadingMain {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.companyMain {
+    margin-left: 12px;
+}
+
+.QuickMain {
+    margin-left: 12px;
+}
+
+@media all and (min-width : 480px) and (max-width : 768px) {
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .herOSectionImage {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 400px;
+
+    }
+
+    .herOSectionImage>div>h2 {
+        width: 325px;
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .herOSectionImage>div>p {
+        width: 100%;
+    }
+
+    .heroSectionBottom>div>input {
+        height: 25px;
+        width: 215px;
+        border-radius: 3px;
+        padding: 9px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .heroSectionBottom>div>button {
+        height: 30px;
+        width: 215px;
+        background-color: #2B3940;
+        color: white;
+        font-size: 18px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .heroSectionBottom {
+        height: 170px;
+
+    }
+
+    .heroSectionBottom>div {
+        text-align: center;
+        display: grid;
+    }
+
+    .CategoryParent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .thirdSectionParent {
+        display: block;
+    }
+
+    .thirdSectionChild1 {
+        width: 100%;
+    }
+
+    .thirdSectionChild1>img:nth-child(2) {
+        width: 90%;
+        margin-top: 21px;
+    }
+
+    .thirdSectionChild1>img:nth-child(3) {
+        height: 85%;
+        width: 83%;
+        margin-left: 57px;
+    }
+
+    .thirdSectionChild2 {
+        width: 93%;
+        margin-top: 45px;
+        margin-left: 30px;
+    }
+
+    .jobListingParentdiv2>div {
+        display: block;
+    }
+
+    .jobListingchild2 {
+        padding: 12px;
+    }
+
+    .clientSayCardParent {
+        display: block;
+    }
+
+    .clientSayCardParent>div {
+        width: 92.5%;
+        margin-top: 20px;
+    }
+
+    .footerHeadingMain {
+        display: block;
+    }
+
+    .footerHeadingMain>div>h3 {
+        color: white;
+    }
+}
+
+@media all and (min-width : 320px) and (max-width : 479px) {
+    .main {
+        width: 90%;
+        margin: auto;
+    }
+
+    .herOSectionImage {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        height: 400px;
+    }
+
+    .herOSectionImage>div {
+        padding-right: 30px;
+    }
+
+    .herOSectionImage>div>h2 {
+        width: 331px;
+        font-size: 1.3rem;
+        margin: 0;
+    }
+
+    .herOSectionImageChild>div>button:nth-child(2) {
+        margin-top: 15px;
+        margin-left: 0;
+    }
+
+    .herOSectionImage>div>p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .heroSectionBottom>div>input {
+        height: 25px;
+        width: 215px;
+        border-radius: 3px;
+        padding: 9px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .heroSectionBottom>div>button {
+        height: 30px;
+        width: 215px;
+        background-color: #2B3940;
+        color: white;
+        font-size: 18px;
+        border: none;
+        margin-top: 10px;
+    }
+
+    .heroSectionBottom {
+        height: 170px;
+
+    }
+
+    .heroSectionBottom>div {
+        text-align: center;
+        display: grid;
+    }
+
+    .CategoryParent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .thirdSectionParent {
+        display: block;
+    }
+
+    .thirdSectionChild1 {
+        width: 100%;
+    }
+
+    .thirdSectionChild1>img:nth-child(2) {
+        width: 90%;
+        margin-top: 15px;
+    }
+
+    .thirdSectionChild1>img:nth-child(3) {
+        height: 70%;
+        width: 83%;
+        margin-left: 23px;
+    }
+
+    .thirdSectionChild2 {
+        width: 96%;
+        margin-top: 45px;
+        margin-left: 16px;
+    }
+    .jobListingSubchild1>p {
+        width: 158px;
+    }
+
+    .jobListingParentdiv2>div {
+        display: block;
+    }
+
+    .jobListingchild2 {
+        padding: 12px;
+    }
+
+    .clientSayCardParent {
+        display: block;
+    }
+
+    .clientSayCardParent>div {
+        width: 92.5%;
+        margin-top: 20px;
+    }
+
+    .footerHeadingMain {
+        display: block;
+    }
+
+    .footerHeadingMain>div>h3 {
+        color: white;
+    }
+}
